@@ -1,0 +1,21 @@
+b1                      progress    f       selects cell spatial filters
+batchmakecellsummaries              s
+CalciumTraceFilter      finished    f   d   median/integration filter 1d vectors
+cellmap                 finished    f   d   gets subregion of image
+displaypalette      	finished    s   d   creates a large image of a colormap
+FastFindfo              finished    f   d   identifies the baseline of a fluorescence trace
+FastFindTransients  	finished    f   d   detects transients from traces
+Filemacpc               finished    f   d   corrects filename structure for PC/MAC usage
+FindFiles           	finished    f   d   general file locator - looks in subfolders
+FindImagingFiles    	finished    f   d   file locator for related imaging files
+imreadtiffstack         finished    f   d   loads tiff-stack file
+KalmanStackFilter       --          f   d   matlab implementation of imagej kalman stack filter
+kuwahara                --          f   d   kuwahara filter to detect cells
+playmovie               finished    f   
+Plotcellsummary      	progress    f   d 	creates printouts of cell location and all trials
+Plottrials              progress    f   d   creates printout of cell activity in heatmap for all trials
+ShowCellSN              progress    f   d   creates visual display of cell activity 
+SlowFindTransients      finished    f   d   detects transients from traces but shows steps
+stack2montage           finished    f   d   creates an image montage from a given stack
+standardica             finished    f   d   spatial ica on an image volume
+standardtemporalica     finished    f   d   temporal ica on an image volume
